@@ -30,4 +30,9 @@ public class SomaJUnitTest {
     public void teste2() {
         assertEquals(Soma.run(2, 0), 2);
     }
+
+    @Test
+    public void teste3() {
+        assertEquals(Soma.run(-2, -80), -82);
+    }
 }
